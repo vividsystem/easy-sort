@@ -1,0 +1,12 @@
+format-modules:
+  date: "{year}-{month}-{day}"
+directory:
+  /home/ms/Downloads:
+    filetypes:
+      pdf:
+        {module}: ....
+        directTo: "/home/ms/Documents/"
+        prepend: "{something}"
+settings:
+  prepend:
+    seperator: "-"
